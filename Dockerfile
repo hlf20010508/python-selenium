@@ -6,13 +6,13 @@ RUN echo "http://dl-4.alpinelinux.org/alpine/v3.14/main" >> /etc/apk/repositorie
 
 # install dependencies
 RUN apk update
-RUN apk add musl-dev
+RUN apk add --no-cache gcc libffi-dev musl-dev
 
 # install chromedriver
-RUN apk add chromium chromium-chromedriver
+RUN apk add --no-cache chromium chromium-chromedriver
 
 # upgrade pip
 RUN pip install --upgrade pip
 
 # install selenium
-RUN pip install selenium
+RUN pip install --no-cache-dir selenium
