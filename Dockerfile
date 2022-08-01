@@ -13,6 +13,3 @@ RUN apk add chromium chromium-chromedriver
 
 # upgrade pip
 RUN pip install --upgrade pip
-
-# install selenium
-RUN pip install selenium
