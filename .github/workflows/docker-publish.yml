@@ -19,4 +19,4 @@ jobs:
         name: hlf01/python-selenium
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        tags: "latest,${{ github.ref }}"
+        tags: "latest,${GITHUB_REF/refs\/tags\//}"
