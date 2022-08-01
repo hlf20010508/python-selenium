@@ -12,7 +12,7 @@ RUN apk add --no-cache gcc libffi-dev musl-dev
 RUN apk add --no-cache chromium chromium-chromedriver
 
 # upgrade pip
-RUN pip install --upgrade pip
+RUN pip install --no-cache-dir --upgrade pip
 
 # install selenium
 RUN pip install --no-cache-dir selenium
