@@ -1,6 +1,10 @@
 # python-selenium
 > A docker image for selenium
 
+## Size
+- Compressed 226.29MB
+- Total 599MB
+
 ## Image includes
 - Alpine 3.16.1
 - Python 3.7.13
