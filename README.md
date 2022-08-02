@@ -22,7 +22,7 @@ FROM hlf01/python-selenium:latest
 ```sh
 git clone https://github.com/hlf20010508/python-selenium.git
 cd python-selenium
-sudo docker build -f Dockerfile -t python-selenium --force-rm .
+sudo docker build -f Dockerfile -t python-selenium --no-cache .
 ```
 
 ## Link
