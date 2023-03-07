@@ -4,9 +4,9 @@
 ## Image includes
 - Alpine 3.16
 - Python 3.7.13
-- Chromium 102.0.5005.167
-- ChromeDriver 102.0.5005.167 (0)
-- Selenium 4.3.0
+- Chromium
+- ChromeDriver
+- Selenium
 
 ## Size
 - Compressed 224MB
