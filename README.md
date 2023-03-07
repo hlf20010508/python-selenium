@@ -8,10 +8,6 @@
 - ChromeDriver
 - Selenium
 
-## Size
-- Compressed 224MB
-- Total 589MB
-
 ## Include in your Dockerfile
 ```Dockerfile
 FROM hlf01/python-selenium:latest
